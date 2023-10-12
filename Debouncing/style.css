@@ -1,0 +1,48 @@
+body {
+font-family: 'Young Serif', serif; 
+background-color: whitesmoke;
+padding:40px;
+color: #333;
+
+}
+input{
+    padding: 15px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0,0,0.1);
+    margin-bottom: 30px;
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+input:focus{
+    outline: none;
+    box-shadow: o 4px 20px rgba(0, 0,0,0.15);
+}
+#recipeList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+div > div{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+div > div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0,0,0.15);
+}
+h3{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #444;
+    }
+    img{
+        width: 50%;
+        max-width: 250;
+        border-radius: 8px;
+        box-shadow: 0 2px  15px rgba(0, 0,0, 0.1);
+    }
